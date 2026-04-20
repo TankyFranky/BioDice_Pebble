@@ -1,0 +1,59 @@
+{
+  "name": "BioDice",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "BioDice",
+    "uuid": "8514f000-d840-4dc5-a14b-9a83c8a362b6",
+    "projectType": "moddable",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "d20",
+          "file": "D20.pdc"
+        },
+        {
+          "type": "raw",
+          "name": "d12",
+          "file": "D12.pdc"
+        },
+        {
+          "type": "raw",
+          "name": "d10",
+          "file": "D10.pdc"
+        },
+        {
+          "type": "raw",
+          "name": "d08",
+          "file": "D8.pdc"
+        },
+        {
+          "type": "raw",
+          "name": "d06",
+          "file": "D6.pdc"
+        },
+        {
+          "type": "raw",
+          "name": "d04",
+          "file": "D4.pdc"
+        }
+      ]
+    }
+  }
+}
